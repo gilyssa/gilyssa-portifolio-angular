@@ -1,0 +1,92 @@
+.containerSidebar{
+  background-color: #f2eae0;
+  width: 20%;
+  height: 100%;
+  border-radius: 35px 0 0 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+}
+
+@font-face {
+  font-family: Monolog;
+  src: url(../../assets/fonts/Monolog.ttf);
+}
+
+.containerIcon h2 {
+  font-family: Monolog;
+}
+
+.containerPhoto img {
+  width: 6rem;
+}
+
+.containerPhoto{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+@font-face {
+  font-family: GeometryBold;
+  src: url(../../assets/fonts/GeometryBold.otf);
+}
+
+.containerPhoto h2 {
+  font-family: GeometryBold;
+}
+
+@font-face {
+  font-family: nk57-monospace;
+  src: url(../../assets/fonts/nk57-monospace.ttf);
+}
+
+.containerPhoto h4 {
+  font-family: nk57-monospace;
+  color: grey;
+}
+
+@font-face {
+  font-family: ShowcaseSansMini;
+  src: url(../../assets/fonts/ShowcaseSansMini.otf);
+}
+
+.containerNav{
+  margin-top: 2rem;
+  font-family: ShowcaseSansMini;
+  text-decoration: none;
+}
+
+.containerNav ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.containerNav ul li{
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: PrintClearly;
+  src: url(../../assets/fonts/print_clearly.ttf);
+}
+.containerPhrase {
+  font-size: 1.5rem;
+  margin: 40px;
+  font-family: PrintClearly;
+  
+}
