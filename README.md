@@ -1,27 +1,33 @@
-# GilyssaPortifolio
+# My Personal Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
+Welcome to my personal portfolio project! This is an Angular-based website that showcases information about my career, projects, and contact details. It's a platform where you can learn more about me and explore my work.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Dashboard:** A home page that provides an overview of my portfolio.
 
-## Code scaffolding
+- **Summary:** A page with details about my career, education, and professional experience.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Projects:** A page where I highlight the projects I've worked on, including descriptions and links for more information.
 
-## Build
+- **Contact:** A page where you can find information to get in touch with me.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Sidebar:** A persistent sidebar present on all pages, providing easy navigation between sections of my portfolio.
 
-## Running unit tests
+## Technologies Used
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Angular: The JavaScript framework powering the application.
 
-## Running end-to-end tests
+- TypeScript: The programming language used to write Angular code.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- HTML and CSS (or SCSS): For the structure and styling of the pages.
 
-## Further help
+## SOLID Principles
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project follows the SOLID principles, which are code design guidelines to make the code more modular, extensible, and maintainable. The SOLID principles applied here include:
+
+- **Single Responsibility Principle (SRP):** Each Angular component has a single clear responsibility. For example, the login component is responsible only for login presentation and interaction, while the authentication logic is managed by a separate service.
+
+- **Open-Closed Principle (OCP):** The authentication logic is encapsulated in a service (`AuthenticationService`), making it extensible for future enhancements or extensions without modifying the login component.
+
+- **Other principles such as Dependency Inversion can also be applied throughout the project to maintain code cohesion and flexibility.**

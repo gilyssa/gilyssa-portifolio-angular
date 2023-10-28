@@ -1,0 +1,16 @@
+.app-container {
+  background-color: #e8a286;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  width: 80%;
+  height: 95%;
+  border-radius: 35px;
+}
+
