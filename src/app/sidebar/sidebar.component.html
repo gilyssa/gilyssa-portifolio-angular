@@ -1,5 +1,5 @@
 <div class="containerSidebar">
-  <div class="containerIcon">
+  <div class="containerIcon" id="icon"  (click)="toggleContainerNav()">
     <img [src]="icon_sidebar">
     <h2>Portfolio</h2>
   </div>
@@ -8,7 +8,7 @@
     <h2>Lyssa Lima</h2>
     <h4>Fullstack Developer</h4>
   </div>
-  <div class="containerNav">
+  <div class="containerNav" [style.display]="isContainerNavVisible ? 'block' : 'none'">
     <nav>
       <ul>
         <li><a>Dashboard</a></li>
