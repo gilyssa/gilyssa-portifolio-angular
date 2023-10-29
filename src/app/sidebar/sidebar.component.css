@@ -99,7 +99,7 @@
 }
 
 /* mobile style */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1030px) {
   .containerSidebar {
    width: 100%;
    height: 10%;
