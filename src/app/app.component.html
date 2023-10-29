@@ -1,8 +1,10 @@
-<!-- app.component.html -->
-
 <div class="app-container">
   <div class="container">
-    <app-sidebar></app-sidebar>
-    <div class="content"></div>
+    <div class="sidebar-container">
+      <app-sidebar></app-sidebar>
+      <div class="content-container">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
   </div>
 </div>

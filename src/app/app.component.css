@@ -14,3 +14,22 @@
   border-radius: 35px;
 }
 
+.sidebar-container {
+  display: flex;
+  height: 100%;
+}
+
+.content-container {
+  height: 90%;
+  flex: 1;
+  padding: 2.5rem; /* Ajuste o padding conforme necessário */
+}
+
+@media only screen and (max-width: 1030px) {
+  .sidebar-container {
+    display: block;
+  }
+}
+
+
+
