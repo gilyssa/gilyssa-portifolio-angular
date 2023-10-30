@@ -122,3 +122,23 @@ h1 {
     width: 18rem;
   }
 }
+
+@media only screen and (max-width: 1300px) {
+  .calendly{
+    display: none;
+  }
+
+  .calendlyLink{
+    display: block;
+    width: 25rem;
+    text-align: center;
+  }
+
+  .containerDashboard{
+    align-items: center;
+  }
+
+}
+
+
+
