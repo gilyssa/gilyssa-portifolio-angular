@@ -1,0 +1,33 @@
+<div class="containerDashboard">
+  <h1>Dashboard</h1>
+  <!-- <app-calendly></app-calendly> -->
+  <!-- <app-pizza-chart></app-pizza-chart> -->
+  <div class="containerTop">
+    <div class="ContainerButton">
+    <div class="containerDashboardPhrase">
+      <p>Olá, me chamo <strong>Lyssa</strong> e sou uma <strong>Desenvolvedora Fullstack!</strong> Bem-vindo ao meu Portfólio, onde você pode explorar meus projetos e descobrir mais sobre mim. Obrigada por visitar! </p>
+    </div>
+    <a href="https://www.superprof.com.br/professora-programacao-formada-ciencia-computacao-com-experiencia-sql-html-css-javascript-node-laravel.html" target="_blank">
+      <img src="{{ button_class }}" alt="Descrição da imagem">
+    </a>
+  </div>
+    <div class="calendly">
+      <app-calendly></app-calendly>
+    </div>
+  </div>
+  <div class="containerBotton">
+  <div class="calendlyLink">
+    <!-- Calendly link widget begin -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <a href=""
+      onclick="Calendly.initPopupWidget({url: 'https://calendly.com/gilyssabrito/reuniao-de-1-hora'});return false;">Marcar
+      um bate-papo comigo</a>
+    <!-- Calendly link widget end -->
+  </div>
+  <div class="containerLeft">
+    <h3>Principais Linguagens</h3>
+    <app-pizza-chart></app-pizza-chart>
+  </div>
+</div>
+</div>

@@ -1,0 +1,118 @@
+.containerDashboard{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: Monolog;
+}
+
+.containerDashboardPhrase{ 
+  margin-top: 2rem;
+  font-family: PrintClearly;
+  font-size: x-large;
+  background-color: #e9f5f4;
+  padding: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+  max-height: 25rem;
+  overflow-y: auto; 
+}
+
+.containerTop{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.calendly{
+  display: none;
+}
+
+.calendlyLink{
+  font-family: Monolog;
+  font-size: 1.2rem;
+  background-color: #f2eae0;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.containerLeft{
+  margin-top: 30px;
+  font-family: Monolog;
+}
+
+.ContainerButton{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.ContainerButton img{
+  width: 23rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.containerBotton{
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media only screen and (min-width: 1030px) {
+  .containerDashboardPhrase{ 
+    width: 25rem;
+  }
+
+  .calendly{
+    display: block;
+    position: absolute;
+    right: 12rem;
+  }
+
+  .calendlyLink{
+    display: none;
+  }
+
+  .containerTop{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .containerLeft{
+    position: absolute;
+    top: 65%;
+    width: 25rem;
+    margin-top: 0;
+  }
+
+  
+}
+
+@media only screen and (min-width: 1600px) {
+  .calendly{
+    right: 15rem;
+  }
+
+  .containerDashboardPhrase{ 
+    width: 40rem;
+  }
+
+  .ContainerButton img{
+    width: 30rem;
+  }
+
+  .containerLeft{
+    top: 60%;
+
+    width: 40rem;
+  }
+}

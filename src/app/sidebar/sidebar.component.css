@@ -67,7 +67,7 @@
 }
 
 .containerNav{
-  margin-top: 2rem;
+  margin-top: 1.7rem;
   font-family: ShowcaseSansMini;
   text-decoration: none;
 }
@@ -83,6 +83,11 @@
 
 .containerNav ul li{
   cursor: pointer;
+}
+
+.containerNav ul li a{
+  text-decoration: none;
+  color: black;
 }
 
 @font-face {
@@ -125,6 +130,7 @@
   }
 
   .containerNav{
+    z-index: 1;
     background-color: #f2eae0;
     width: 100%;
     margin-top: 0;

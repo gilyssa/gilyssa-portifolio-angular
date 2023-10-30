@@ -12,6 +12,9 @@
   width: 80%;
   height: 95%;
   border-radius: 35px;
+  overflow: hidden;
+  overflow-y: auto; 
+
 }
 
 .sidebar-container {
@@ -20,9 +23,8 @@
 }
 
 .content-container {
-  height: 90%;
   flex: 1;
-  padding: 2.5rem; /* Ajuste o padding conforme necessário */
+  padding: 2.5rem;
 }
 
 @media only screen and (max-width: 1030px) {
@@ -30,6 +32,7 @@
     display: block;
   }
 }
+
 
 
 

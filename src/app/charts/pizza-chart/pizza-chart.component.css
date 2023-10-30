@@ -1,0 +1,12 @@
+#canvas{
+  margin-top: 1rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+@media only screen and (min-width: 1600px) {
+  #canvas{
+    width: 16rem;
+    height: 16rem;
+  }
+}
