@@ -139,3 +139,17 @@
 
   }
 }
+
+@media only screen and (max-width: 1400px) {
+  .containerPhoto{
+    margin-top: 1%;
+  }
+  .containerNav ul{
+    font-size: 2rem;
+  }
+
+  .containerNav{
+    margin-top: 1rem;
+  }
+
+}

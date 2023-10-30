@@ -116,3 +116,9 @@ h1 {
     width: 40rem;
   }
 }
+
+@media only screen and (max-width: 1400px) {
+  .ContainerButton img{
+    width: 18rem;
+  }
+}
