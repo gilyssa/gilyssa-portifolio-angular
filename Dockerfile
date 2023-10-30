@@ -10,4 +10,4 @@ COPY . .
 RUN npm install --legacy-peer-deps
 
 # Execute o comando de compilação do Angular (assumindo que o comando seja 'ng build')
-RUN npm run build
+RUN npm start
