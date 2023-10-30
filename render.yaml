@@ -1,8 +1,6 @@
-# render.yaml
 services:
-- name: angular-app
-  dockerfile: Dockerfile
-  buildCommand: "npm install && ng build --prod"
-  env:
-    - key: NODE_VERSION
-      value: "16.13"
+  - name: angular-app
+    buildCommand: "npm install && ng build --prod"
+    env:
+      - key: NODE_VERSION
+        value: "16.13"
