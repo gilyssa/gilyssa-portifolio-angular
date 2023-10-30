@@ -1,6 +1,5 @@
 # Use uma imagem base do Node.js com a versão desejada
-FROM node:16.13.0
-
+FROM node:latest
 # Defina o diretório de trabalho no contêiner
 WORKDIR /app
 
