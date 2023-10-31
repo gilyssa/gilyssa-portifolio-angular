@@ -6,7 +6,7 @@ Welcome to my personal portfolio project! This is an Angular-based website that 
 
 - **Dashboard:** A home page that provides an overview of my portfolio.
 
-- **Summary:** A page with details about my career, education, and professional experience.
+- **AboutMe:** A page with details about my career, education, and professional experience.
 
 - **Projects:** A page where I highlight the projects I've worked on, including descriptions and links for more information.
 
@@ -21,6 +21,8 @@ Welcome to my personal portfolio project! This is an Angular-based website that 
 - TypeScript: The programming language used to write Angular code.
 
 - HTML and CSS (or SCSS): For the structure and styling of the pages.
+
+- Mobile First
 
 ## SOLID Principles
 
