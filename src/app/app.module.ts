@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CalendlyComponent } from './calendly/calendly.component';
 import { PizzaChartComponent } from './charts/pizza-chart/pizza-chart.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PizzaChartComponent } from './charts/pizza-chart/pizza-chart.component'
     SidebarComponent,
     DashboardComponent,
     CalendlyComponent,
-    PizzaChartComponent
+    PizzaChartComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,

@@ -112,7 +112,6 @@ h1 {
 
   .containerLeft{
     top: 60%;
-
     width: 40rem;
   }
 }
@@ -139,6 +138,13 @@ h1 {
   }
 
 }
+
+@media only screen and (max-height: 600px) {
+  .containerLeft {
+    display: none;
+  }
+}
+
 
 
 
