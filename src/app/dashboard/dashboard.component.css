@@ -3,6 +3,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  
 }
 
 h1 {
@@ -164,7 +166,7 @@ h1 {
   .calendly{
     display: block;
     position: relative;
-    left: 20%
+    left: 5%
   }
 
   .containerDashboard{
