@@ -1,0 +1,19 @@
+.containerAboutMe{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: Monolog;
+}
+h4{
+  font-family: PrintClearly;
+  font-size: 2rem;
+}
+
+.containerTextPhotos{
+  margin-top: 2rem;
+
+}

@@ -26,3 +26,10 @@
   }
 }
 
+@media only screen and (min-width: 2000px) {
+  .calendly-inline-widget{
+    width: 35rem;
+    height: 50rem;
+  }
+}
+
