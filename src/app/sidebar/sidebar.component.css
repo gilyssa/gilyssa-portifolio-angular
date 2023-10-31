@@ -153,3 +153,10 @@
   }
 
 }
+
+@media only screen and (max-height: 600px) {
+  .containerPhrase {
+    display: none;
+  }
+}
+
