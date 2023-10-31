@@ -139,9 +139,23 @@ h1 {
 
 }
 
-@media only screen and (max-height: 600px)  {
+@media only screen and (max-height: 672px) and (min-width: 1025px)  {
   .containerLeft {
     display: none;
+  }
+
+  .calendly{
+    display: none;
+  }
+
+  .calendlyLink{
+    display: block;
+    width: 25rem;
+    text-align: center;
+  }
+
+  .containerDashboard{
+    align-items: center;
   }
 }
 

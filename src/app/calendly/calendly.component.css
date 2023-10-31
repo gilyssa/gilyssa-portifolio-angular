@@ -3,16 +3,26 @@
   height: 35rem;
 }
 
+/* telas maiores a partir de 21 polegadas */
 @media only screen and (min-width: 1600px) {
   .calendly-inline-widget{
     width: 23rem;
     height: 50rem;
   }
 }
-
+/* telas de notebook menores que monitores */
 @media only screen and (max-width: 1400px) {
   .calendly-inline-widget{
     width: 18rem;
     height: 25rem;
   }
 }
+
+/* telas com a altura pequena */
+@media only screen and (max-height: 700px)  {
+  .calendly-inline-widget{
+    width: 18rem;
+    height: 30rem;
+  }
+}
+
