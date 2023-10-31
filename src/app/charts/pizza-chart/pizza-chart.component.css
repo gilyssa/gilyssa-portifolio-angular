@@ -10,3 +10,10 @@
     height: 16rem;
   }
 }
+
+@media only screen and (max-height: 700px)  {
+  #canvas{
+    width: 8rem;
+    height: 8rem;
+  }
+}
